@@ -10,18 +10,15 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
         html {
             scroll-behavior: smooth;
         }
-        
         body {
             font-family: 'Georgia', serif;
             background: linear-gradient(135deg, #ffeef8 0%, #e6f3ff 50%, #fff0e6 100%);
             color: #131313;
             line-height: 1.6;
         }
-        
         header {
             background: linear-gradient(90deg, #d4a5d9 0%, #a8c9e8 50%, #f9c8d4 100%);
             padding: 20px;
@@ -31,14 +28,12 @@
             top: 0;
             z-index: 100;
         }
-        
         h1 {
             color: #008B8B;
             font-size: 2.5em;
             text-shadow: 2px 2px 4px rgba(255,255,255,0.5);
             margin-bottom: 10px;
         }
-    
         nav {
             background-color: #e8d5e9;
             padding: 15px;
@@ -52,11 +47,9 @@
             justify-content: center;
             flex-wrap: wrap;
         }
-        
         nav li {
             margin: 5px 15px;
         }
-        
         nav a {
             color: #8b7aa8;
             text-decoration: none;
@@ -66,7 +59,6 @@
             transition: all 0.3s ease;
             display: inline-block;
         }
-        
         nav a:hover {
             background: #c9a9d9;
             color: white;
@@ -85,7 +77,6 @@
             border-radius: 20px;
             box-shadow: 0 8px 16px rgba(0,0,0,0.1);
         }
-        
         h2 {
             color: #7EBDE9;
             font-size: 2em;
@@ -95,13 +86,11 @@
             background: linear-gradient(90deg, #ffe6f2 0%, #e6e6fa 100%);
             border-radius: 15px;
         }
-        
         h3 {
             color: #3C91ED;
             font-size: 1.5em;
             margin: 15px 0;
         }
-        
         .button {
             background: linear-gradient(45deg, #c9a9d9 0%, #a8c9e8 100%);
             color: white;
@@ -115,18 +104,15 @@
             text-decoration: none;
             margin: 10px 5px;
         }
-        
         .button:hover {
             transform: scale(1.05);
             box-shadow: 0 6px 12px rgba(0,0,0,0.2);
             background: linear-gradient(45deg, #a8c9e8 0%, #f9c8d4 100%);
         }
-    
         .image-container {
             text-align: center;
             margin: 20px 0;
         }
-        
         .bordered-image {
             border: 5px solid #d4a5d9;
             border-radius: 15px;
@@ -134,36 +120,30 @@
             height: auto;
             transition: transform 0.3s ease;
         }
-        
         .bordered-image:hover {
             transform: scale(1.02);
             border-color: #a8c9e8;
         }
-        
         ul.fancy-list {
             list-style: none;
             padding-left: 20px;
         }
-        
         ul.fancy-list li:before {
             content: "♪ ";
             color: #d4a5d9;
             font-weight: bold;
             margin-right: 8px;
         }
-        
         ol.numbered-list {
             counter-reset: item;
             list-style: none;
         }
-        
         ol.numbered-list li {
             counter-increment: item;
             margin-bottom: 10px;
             position: relative;
             padding-left: 40px;
         }
-        
         ol.numbered-list li:before {
             content: counter(item);
             background: #c9a9d9;
@@ -176,34 +156,28 @@
             position: absolute;
             left: 0;
         }
-        
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
         }
-        
         th {
             background: linear-gradient(90deg, #d4a5d9 0%, #a8c9e8 100%);
             color: white;
             padding: 15px;
             text-align: left;
         }
-        
         td {
             padding: 12px;
             border-bottom: 1px solid #e8d5e8;
         }
-        
         tr:hover {
             background-color: #faf0ff;
         }
-        
         .dropdown {
             position: relative;
             display: inline-block;
         }
-        
         .dropdown-content {
             display: none;
             position: absolute;
@@ -214,11 +188,9 @@
             z-index: 1;
             padding: 10px;
         }
-        
         .dropdown:hover .dropdown-content {
             display: block;
         }
-        
         .dropdown-content a {
             color: #8b7aa8;
             padding: 10px;
@@ -226,11 +198,9 @@
             display: block;
             border-radius: 5px;
         }
-        
         .dropdown-content a:hover {
             background-color: #e8d5e8;
         }
-        
         .card {
             background: linear-gradient(135deg, #ffeef8 0%, #e6f3ff 100%);
             border-radius: 15px;
@@ -241,12 +211,10 @@
             vertical-align: top;
             transition: transform 0.3s ease;
         }
-        
         .card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0,0,0,0.15);
         }
-        
         iframe {
             border: 3px solid #d4a5d9;
             border-radius: 10px;
@@ -254,7 +222,6 @@
             height: 400px;
             margin: 20px 0;
         }
-
         footer {
             background: linear-gradient(90deg, #e8d5e8 0%, #c9e8e3 100%);
             padding: 30px;
@@ -262,14 +229,12 @@
             border-radius: 20px 20px 0 0;
             margin-top: 40px;
         }
-        
         form {
             background: #faf0ff;
             padding: 25px;
             border-radius: 15px;
             margin: 20px 0;
         }
-        
         input, textarea, select {
             width: 100%;
             padding: 10px;
@@ -278,19 +243,16 @@
             border-radius: 8px;
             font-family: inherit;
         }
-        
         input:focus, textarea:focus, select:focus {
             outline: none;
             border-color: #c9a9d9;
             background-color: #fff8fc;
         }
-        
         .symbol {
             font-size: 2em;
             color: #d4a5d9;
             margin: 0 5px;
         }
-        
         .fixed-nav {
             position: fixed;
             right: 20px;
@@ -301,7 +263,6 @@
             border-radius: 20px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        
         .fixed-nav a {
             display: block;
             margin: 10px 0;
@@ -311,11 +272,9 @@
             border-radius: 10px;
             transition: background 0.3s ease;
         }
-        
         .fixed-nav a:hover {
             background: #e8d5e8;
         }
-        
         .process-step {
             background: linear-gradient(45deg, #ffe6f2 0%, #e6e6fa 100%);
             padding: 20px;
@@ -324,7 +283,6 @@
             border-radius: 0 10px 10px 0;
             position: relative;
         }
-        
         .process-step:hover {
             background: linear-gradient(45deg, #ffd4e8 0%, #d4d4ff 100%);
         }
@@ -333,7 +291,6 @@
                 width: 100%;
                 display: block;
             }
-            
             .fixed-nav {
                 display: none;
             }
@@ -370,7 +327,6 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    
     <div class="container">
         <section id="home">
             <h2><span class="symbol"></span> Welcome to Our Musical Journey <span class="symbol"></span></h2>
@@ -378,7 +334,6 @@
             
             <div class="image-container"> 
             </div>
-            
             <div style="text-align: center;">
                 <a href="#about" class="button">Explore More</a>
                 <a href="#contact" class="button">Get in Touch</a>
@@ -393,11 +348,9 @@
                 </div>
             </div>
         </section>
-        
         <section id="about">
             <h2>About Music's Cultural Impact</h2>
             <h3>Why Music Matters</h3>
-            
             <p>Throughout history, music has been an integral part of human civilization. From ancient tribal drums to modern symphonies, music reflects and shapes our collective consciousness.</p>
             
             <ul class="fancy-list">
@@ -407,26 +360,21 @@
                 <li>Enhances cognitive development and learning</li>
                 <li>Provides therapeutic and healing benefits</li>
             </ul>
-            
             <div class="card">
                 <h3>Cultural Expression</h3>
                 <p>Music serves as a mirror to society, reflecting our values, struggles, and aspirations.</p>
             </div>
-            
             <div class="card">
                 <h3>Global Unity</h3>
                 <p>Despite language barriers, music unites people across continents and cultures.</p>
             </div>
-            
             <div class="card">
                 <h3>Cognitive Benefits</h3>
                 <p>Studies show music enhances memory, concentration, and emotional intelligence.</p>
             </div>
         </section>
-        
         <section id="types">
             <h2>Types of Musical Influence</h2>
-            
             <table>
                 <thead>
                     <tr>
@@ -475,7 +423,6 @@
                     </tr>
                 </tbody>
             </table>
-            
             <h3>Music's Role in Society:</h3>
             <ol class="numbered-list">
                 <li>Religious and Spiritual Ceremonies</li>
@@ -486,71 +433,56 @@
                 <li>Economic Industry and Employment</li>
             </ol>
         </section>
-        
         <section id="services">
             <h2>Our Services</h2>
-            
             <div style="text-align: center;">
                 <img src="https://media.giphy.com/media/tqfS3mgQU28ko/giphy.gif" 
                      alt="Music Animation" 
                      style="border-radius: 15px; max-width: 300px;">
             </div>
-            
             <h3>What We Offer:</h3>
-            
             <div class="card">
                 <h3>Music Education</h3>
                 <p>Comprehensive courses on music history, theory, and cultural significance.</p>
                 <a href="https://www.berklee.edu" target="_blank" class="button">Learn More</a>
             </div>
-            
             <div class="card">
                 <h3>Cultural Events</h3>
                 <p>Organizing concerts, festivals, and cultural exchanges through music.</p>
                 <a href="https://www.songkick.com" target="_blank" class="button">View Events</a>
             </div>
-            
             <div class="card">
                 <h3>Research & Documentation</h3>
                 <p>Preserving musical heritage and studying its societal impact.</p>
                 <a href="https://www.loc.gov/music/" target="_blank" class="button">Explore Research</a>
             </div>
         </section>
-        
         <section id="process">
             <h2>Our Process</h2>
-            
             <div class="process-step">
                 <h3>Step 1: Discovery</h3>
                 <p>We explore different musical traditions and their cultural contexts.</p>
             </div>
-            
             <div class="process-step">
                 <h3>Step 2: Analysis</h3>
                 <p>Understanding the relationship between music and societal development.</p>
             </div>
-            
             <div class="process-step">
                 <h3>Step 3: Documentation</h3>
                 <p>Recording and preserving musical heritage for future generations.</p>
             </div>
-            
             <div class="process-step">
                 <h3>Step 4: Education</h3>
                 <p>Sharing knowledge through workshops, courses, and publications.</p>
             </div>
-            
             <div class="process-step">
                 <h3>Step 5: Implementation</h3>
                 <p>Creating programs that use music for social benefit and cultural enrichment.</p>
             </div>
         </section>
-        
         <section id="examples">
             <h2>Examples & Case Studies</h2>
-            
             <h3>Musical Moments That Changed Society</h3>
-            
             <ul class="fancy-list">
                 <li>Woodstock 1969 - Symbol of counterculture movement</li>
                 <li>Live Aid 1985 - Global charity through music</li>
@@ -558,12 +490,10 @@
                 <li>Bob Dylan's protest songs - Voice of social change</li>
                 <li>Beethoven's 9th Symphony - Universal brotherhood</li>
             </ul>
-            
             <h3>Explore Music from Around the World:</h3>
             <iframe src="https://www.youtube.com/embed/videoseries?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf" 
                     title="World Music Playlist">
             </iframe>
-            
             <div class="image-container">
                 <a href="https://www.spotify.com" target="_blank">
                     <img src="https://via.placeholder.com/400x200/c9e8e3/6b5b95?text=Global+Music+Platform" 
@@ -572,17 +502,13 @@
                 </a>
             </div>
         </section>
-        
         <section id="feedback">
             <h2>Share Your Musical Story</h2>
-            
             <form action="#" method="post">
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="your@email.com" required>
-                
                 <label for="genre">Favorite Music Genre:</label>
                 <select id="genre" name="genre">
                     <option value="">Select a genre</option>
@@ -594,29 +520,23 @@
                     <option value="electronic">Electronic</option>
                     <option value="world">World Music</option>
                 </select>
-                
                 <label for="story">How has music impacted your life?</label>
                 <textarea id="story" name="story" rows="5" placeholder="Share your story..."></textarea>
-                
                 <label for="rating">Rate Music's Importance (1-10):</label>
                 <input type="range" id="rating" name="rating" min="1" max="10" value="8">
-                
                 <div style="text-align: center;">
                     <button type="submit" class="button">Submit Feedback</button>
                     <button type="reset" class="button">Clear Form</button>
                 </div>
             </form>
         </section>
-        
         <section id="contact">
             <h2>Contact Us</h2>
-            
             <div style="background: #faf0ff; padding: 20px; border-radius: 15px;">
                 <h3>Get in Touch</h3>
                 <p><strong>Email:</strong> cultureandsociety@gmail.com </p>
                 <p><strong>Phone:</strong> +91 9834526450 </p>
                 <p><strong>Address:</strong> 12 Madan Mohan Lane, New Delhi</p>
-                
                 <h3>Connect on Social Media:</h3>
                 <div style="text-align: center;">
                     <a href="https://facebook.com" target="_blank" class="button">Facebook</a>
@@ -625,12 +545,9 @@
                     <a href="https://youtube.com" target="_blank" class="button">YouTube</a>
                 </div>
             </div>
-   
              </section>
-    
         <section>
             <h2>Additional Resources</h2>
-            
             <h3>Recommended Reading</h3>
             <table>
                 <tr>
@@ -654,7 +571,6 @@
                     <td>20th Century Music History</td>
                 </tr>
             </table>
-            
             <h3>Quick Facts:</h3>
             <ul>
                 <li>Music activates more areas of the brain than any other activity</li>
@@ -665,7 +581,6 @@
             </ul>
         </section>
     </div>
-    
     <footer>
         <h3>Thank You for Exploring Music, it's Culture and Society </h3>
         <p>&copy; 2026 Culture and Society. All rights reserved.</p>
@@ -686,7 +601,6 @@
             "Music is the universal language of mankind" - Henry Wadsworth Longfellow
         </p>
     </footer>
-    
     <a id="bottom"></a>
 </body>
 </html>
